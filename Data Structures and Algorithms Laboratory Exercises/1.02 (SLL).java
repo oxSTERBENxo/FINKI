@@ -188,15 +188,14 @@ class SLL<E> {
 public class Main{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-
+        
         int n = sc.nextInt();
         SLL<String> lista = new SLL<String>();
         for (int i = 0; i < n; i++) {
-            String s = sc.next();
-            lista.insertLast(s);
+            lista.insertLast(sc.next());
         }
-        System.out.println(lista.toString());
         int lenght = sc.nextInt();
+        System.out.println(lista.toString());
         for (SLLNode<String> i = lista.getFirst(); i != null; i = i.succ) {
             if (i.element.length() < lenght) {
                 lista.delete(i);
