@@ -9,6 +9,7 @@ in the list is given - N, and then in the next N lines the elements themselves. 
 
 import java.util.Scanner;
 //input SLL and SLLNode classes
+
 public class SLL05 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
