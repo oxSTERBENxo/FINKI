@@ -10,7 +10,8 @@ Then, in the last two lines, the integer M and the natural number k are given.Ou
 
 import java.util.Scanner;
 //insert the DLL and DLLNode classes here
-public class Main{
+
+public class DLL09{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         DLL <Integer> niza=new DLL<Integer>();
