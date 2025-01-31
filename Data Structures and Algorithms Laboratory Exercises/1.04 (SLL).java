@@ -10,6 +10,7 @@ and then in the next N lines the elements themselves. In the last line, the inte
 
 import java.util.Scanner;
 //input SLL and SLLNode class
+
 public class SLL04 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
