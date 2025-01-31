@@ -12,7 +12,7 @@ and then in the next N lines the elements themselves. In the last line, the inte
 import java.util.Scanner;
 import java.util.*;
 
-public class SLL3 {
+public class SLL03 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
