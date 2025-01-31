@@ -185,7 +185,7 @@ class SLL<E> {
     }
 }
 // se pred ova e dadeno od niv.
-public class Main{
+public class SLL02{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         
