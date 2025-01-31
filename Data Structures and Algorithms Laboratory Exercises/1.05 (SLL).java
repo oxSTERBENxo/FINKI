@@ -8,7 +8,7 @@ String with exactly L characters to the end of the list, keeping the original or
 in the list is given - N, and then in the next N lines the elements themselves. In the last line, the integer L is given. Output: The list before and after the transformation*/
 
 import java.util.Scanner;
-//input SLL class
+//input SLL and SLLNode classes
 public class SLL05 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
