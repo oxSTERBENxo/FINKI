@@ -9,7 +9,7 @@ the natural number k is given. Output: The list before and after the transformat
 import java.util.Scanner;
 //input DLL and DLLNode class
 
-public class DLL18 {
+public class DLL08 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         DLL<Integer> list = new DLL<>();
