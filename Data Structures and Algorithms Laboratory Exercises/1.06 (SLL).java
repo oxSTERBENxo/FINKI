@@ -10,6 +10,7 @@ the elements themselves. In the last line, the integer L is given. Output: The l
 
 import java.util.Scanner;
 //input SLL and SLLNode class
+
 public class SLL06 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
