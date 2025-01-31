@@ -8,7 +8,8 @@ separated by spaces. Output: The number of elements that satisfy the condition.*
 
 import java.util.Scanner;
 //insert the DLL and DLLNode classes
-public class  Main {
+
+public class  DLL13 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
