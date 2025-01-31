@@ -8,10 +8,9 @@ You are given a single linked list with String nodes. Additionally, you are give
 after each node that contains a String with exactly L characters in the list. Input: In the first line from the input the number of elements in the list is given - N,
 and then in the next N lines the elements themselves. In the last line, the integer L is given. Output: The list before and after the transformation*/
 
-//insert SLL class
 import java.util.Scanner;
 import java.util.*;
-
+//input SLL and SLLNode class
 public class SLL03 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
