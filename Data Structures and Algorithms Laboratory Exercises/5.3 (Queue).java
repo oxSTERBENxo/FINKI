@@ -31,7 +31,7 @@ class Student {
     }
 }
 
-public class Queue33 {
+public class Queue3 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
       
