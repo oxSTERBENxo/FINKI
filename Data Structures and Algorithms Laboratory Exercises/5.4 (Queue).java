@@ -29,7 +29,7 @@ class Student{
         this.red[2] = red[2];
     }
 }
-public class Queue44 {
+public class Queue4 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         Queue<Student> dokumenti = new LinkedList<Student>();
