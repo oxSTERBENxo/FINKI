@@ -59,6 +59,10 @@ public class HashNajdobraPonudaMeow {
         }
         String date = sc.nextLine();
         int max = Integer.MIN_VALUE;
+        if(!map.containsKey(date)) {
+            System.out.println("No offers");
+            return;
+        }
         Predavac maxPredavac = map.get(date).get(0);
         for(Predavac c: map.get(date)){
             if(max<c.price){
