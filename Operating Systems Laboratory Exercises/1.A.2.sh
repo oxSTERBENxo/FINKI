@@ -52,3 +52,5 @@ grep "14.03.2024 in_progress" total.txt | wc -l
 
 #Како 10то барање ни беше дадено да ги испечатиме сите од 14ти, над 50 посто, се in_progress. Да се испечатат само 1 и 4 линија.
 awk '$2=="14.03.2024" && $4>=50 && $3=="in_progress" { print $1,$4} ' total.txt
+
+#se ova se pishuva vo terminal
